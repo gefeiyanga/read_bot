@@ -3,10 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun run index.ts -p 8899"
+    "start": "bun run index.ts -p 8899",
+    "build": "bun-vercel index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "bun-vercel": "^1.0.0-alpha.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
